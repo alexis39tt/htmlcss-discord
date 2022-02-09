@@ -1,16 +1,19 @@
-*{
+/* VALORI DI DEFAULT E RESET, IMPORTAZIONE FONT */
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html{
+html {
     font-family: 'Ginto';
     font-size: 20px;
 }
 
-a{
+a {
     cursor: pointer;
+    text-decoration: none;
 }
 
 @font-face {
@@ -25,60 +28,7 @@ a{
     font-weight: bold;
 }
 
-header{
-    background-image: url('../img/jumbo.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center 100px;
-    background-color: #245ee9;
-    height: 720px;
-}
-
-header img{
-    vertical-align: middle;
-}
-
-header nav{
-    width: 75%;
-    height: 100px;
-    margin: auto;
-    line-height: 100px;
-}
-
-header nav::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.topnav-logo{
-    float: left;
-    width: 200px;
-    text-align: center;
-}
-
-.topnav-list{
-    margin: auto;
-    width: calc(100% - 400px);
-    display: inline-block;
-    vertical-align: middle;
-    text-align: center;
-}
-
-.topnav-button{
-    float: right;
-    width: 200px;
-    text-align: center;
-}
-
-header li{
-    display: inline-block;
-    margin: auto 20px;
-    list-style: none;
-    text-align: center;
-    font-size: 1rem;
-    color: white;
-}
+/* CLASSI IN COMUNE */
 
 .btn {
     border: none;
@@ -87,7 +37,67 @@ header li{
     cursor: pointer;
 }
 
-.header-btn{
+
+/* HEADER E NAVBAR */
+
+header {
+    background-image: url('../img/jumbo.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center 100px;
+    background-color: #245ee9;
+    height: 720px;
+}
+
+header img {
+    vertical-align: middle;
+}
+
+header nav {
+    width: 75%;
+    height: 100px;
+    margin: auto;
+    line-height: 100px;
+}
+
+header nav::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.topnav-logo {
+    float: left;
+    width: 200px;
+    text-align: center;
+}
+
+.topnav-list {
+    margin: auto;
+    width: calc(100% - 400px);
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.topnav-button {
+    float: right;
+    width: 200px;
+    text-align: center;
+}
+
+header li {
+    display: inline-block;
+    margin: auto 20px;
+    list-style: none;
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+}
+
+.header-btn {
     background-color: white;
     padding: 15px 20px;
 }
+
+/* MAIN */
