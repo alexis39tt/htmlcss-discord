@@ -5,17 +5,89 @@
 }
 
 html{
-    font-family: Ginto;
+    font-family: 'Ginto';
+    font-size: 20px;
+}
+
+a{
+    cursor: pointer;
 }
 
 @font-face {
-    font-family: Ginto;
+    font-family: 'Ginto';
     src: url('../fonts/whitneybook.otf');
     font-weight: 400;
 }
 
 @font-face {
-    font-family: Ginto;
+    font-family: 'Ginto';
     src: url('../fonts/whitneybold.otf');
     font-weight: bold;
+}
+
+header{
+    background-image: url('../img/jumbo.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center 100px;
+    background-color: #245ee9;
+    height: 720px;
+}
+
+header img{
+    vertical-align: middle;
+}
+
+header nav{
+    width: 75%;
+    height: 100px;
+    margin: auto;
+    line-height: 100px;
+}
+
+header nav::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.topnav-logo{
+    float: left;
+    width: 200px;
+    text-align: center;
+}
+
+.topnav-list{
+    margin: auto;
+    width: calc(100% - 400px);
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.topnav-button{
+    float: right;
+    width: 200px;
+    text-align: center;
+}
+
+header li{
+    display: inline-block;
+    margin: auto 20px;
+    list-style: none;
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+}
+
+.btn {
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.header-btn{
+    background-color: white;
+    padding: 15px 20px;
 }
