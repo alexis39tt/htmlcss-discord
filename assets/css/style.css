@@ -28,6 +28,12 @@ a {
     font-weight: bold;
 }
 
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* BUTTONS */
 
 .btn {
@@ -106,12 +112,6 @@ header nav {
     line-height: 100px;
 }
 
-header nav::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 .topnav-logo {
     float: left;
     width: 200px;
@@ -165,5 +165,49 @@ header li:hover{
     margin-bottom: 40px;
 }
 
-
 /* MAIN */
+
+.section-container-type1{
+    width: 60%;
+    height: 40vw;
+    margin: 100px auto;
+}
+
+.section-container-type1 .section-img{
+    float: left;
+}
+
+.section-container-type2 .section-img{
+    float: right;
+}
+
+.section-container-type2{
+    width: 60%;
+    height: 40vw;
+    margin: 100px auto;
+}
+
+.section-container-type1 .section-text{
+    margin-left: 120px;
+}
+
+.section-container-type2 .section-text{
+    margin-right: 120px;
+}
+
+.section-text{
+    color: #23272a;
+    display: inline-block;
+    width: 330px;
+    margin-top: 20px;
+}
+
+.section-text h1{
+    font-size: 2.5rem;
+}
+
+.section-text p{
+    font-size: 1rem;
+    margin-top: 20px;
+    line-height: 150%;
+}
