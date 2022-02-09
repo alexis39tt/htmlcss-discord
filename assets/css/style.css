@@ -10,12 +10,12 @@ html{
 
 @font-face {
     font-family: Ginto;
-    src: url('../whitneybook.otf');
+    src: url('../fonts/whitneybook.otf');
     font-weight: 400;
 }
 
 @font-face {
     font-family: Ginto;
-    src: url('../whitneybold.otf');
+    src: url('../fonts/whitneybold.otf');
     font-weight: bold;
 }
