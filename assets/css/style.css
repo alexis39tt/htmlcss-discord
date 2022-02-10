@@ -166,13 +166,18 @@ header li:hover {
     margin-bottom: 40px;
 }
 
-/* MAIN SECTIONS*/
+/* MAIN SECTIONS */
 
 .section-container {
     width: 60%;
     height: 35vw;
     padding-top: 100px;
     margin: auto;
+}
+
+section.type1 {
+    width: 100%;
+    background-color: white;
 }
 
 section.type2 {
@@ -212,6 +217,27 @@ section.type2 {
     margin-top: 20px;
     line-height: 150%;
 }
+
+/* WAVES */
+
+.wave-gray{
+    background-color: white;
+}
+
+.wave-white{
+    background-color: #f6f6f6;
+}
+
+.wave-gray img{
+    filter: invert(0.965);
+    transform: translate(0px, 5px);
+}
+
+.wave-white img{
+    filter: invert(1);
+    transform: translate(0px, 5px);
+}
+
 
 /* BOTTOM SECTION */
 
