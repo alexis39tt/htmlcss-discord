@@ -72,12 +72,12 @@ a {
     background-color: #363940;
 }
 
-.btn-blue{
+.btn-blue {
     background-color: #8ea1e1;
     color: white;
 }
 
-.btn-blue:hover{
+.btn-blue:hover {
     background-color: #7983f5;
 }
 
@@ -229,54 +229,54 @@ section.type2 {
 
 /* WAVES */
 
-.wave-gray{
+.wave-gray {
     background-color: white;
 }
 
-.wave-white{
+.wave-white {
     background-color: #f6f6f6;
 }
 
-.wave-gray img{
+.wave-gray img {
     filter: invert(0.965);
     transform: translate(0px, 5px);
 }
 
-.wave-white img{
+.wave-white img {
     filter: invert(1);
     transform: translate(0px, 5px);
 }
 
 /* BOTTOM SECTION */
 
-.bottom-section-container{
+.bottom-section-container {
     height: 65vw;
     text-align: center;
 }
 
-.bottom-section-container img{
+.bottom-section-container img {
     margin-top: 80px;
     transform: scale(1.25);
 }
 
-.bottom-section-text{
+.bottom-section-text {
     color: #23272a;
     font-size: 1.8rem;
 }
 
-.bottom-section-text h1{
+.bottom-section-text h1 {
     font-size: 2.45rem;
     margin-bottom: 20px;
 }
 
-.bottom-section-text p{
+.bottom-section-text p {
     font-size: 1rem;
     width: 82%;
     margin: auto;
     line-height: 150%;
 }
 
-.bottom-section-starry-text{
+.bottom-section-starry-text {
     margin-top: 20px;
     background-image: url('../img/stars.svg');
     background-repeat: no-repeat;
@@ -285,8 +285,48 @@ section.type2 {
     color: #23272a;
 }
 
-.bottom-section-button{
+.bottom-section-button {
     margin-top: -50px;
 }
 
 /* FOOTER */
+
+footer {
+    background-color: #23272a;
+    height: 33vw;
+    color: white;
+}
+
+.top-content-footer {
+    padding-top: 80px;
+    width: 60%;
+    margin: auto;
+}
+
+.column-slogan {
+    width: 30%;
+    float: left;
+}
+
+.column-slogan h2 {
+    color: #8ea1e1;
+    font-size: 1.8rem;
+}
+
+.col-list {
+    width: 17.5%;
+    float: left;
+}
+
+.col-list ul {
+    list-style: none;
+}
+
+.col-list p {
+    color: #8ea1e1;
+    font-weight: bold;
+}
+
+.col-list li {
+    padding-top: 10px;
+}
