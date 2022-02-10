@@ -72,6 +72,15 @@ a {
     background-color: #363940;
 }
 
+.btn-blue{
+    background-color: #8ea1e1;
+    color: white;
+}
+
+.btn-blue:hover{
+    background-color: #7983f5;
+}
+
 .text-btn1 span {
     font-size: 1.2rem;
     position: absolute;
@@ -238,7 +247,46 @@ section.type2 {
     transform: translate(0px, 5px);
 }
 
-
 /* BOTTOM SECTION */
+
+.bottom-section-container{
+    height: 65vw;
+    text-align: center;
+}
+
+.bottom-section-container img{
+    margin-top: 80px;
+    transform: scale(1.25);
+}
+
+.bottom-section-text{
+    color: #23272a;
+    font-size: 1.8rem;
+}
+
+.bottom-section-text h1{
+    font-size: 2.45rem;
+    margin-bottom: 20px;
+}
+
+.bottom-section-text p{
+    font-size: 1rem;
+    width: 82%;
+    margin: auto;
+    line-height: 150%;
+}
+
+.bottom-section-starry-text{
+    margin-top: 20px;
+    background-image: url('../img/stars.svg');
+    background-repeat: no-repeat;
+    background-position: center 55px;
+    padding: 100px;
+    color: #23272a;
+}
+
+.bottom-section-button{
+    margin-top: -50px;
+}
 
 /* FOOTER */
