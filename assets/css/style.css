@@ -313,6 +313,26 @@ footer {
     font-size: 1.8rem;
 }
 
+.language{
+    margin-top: 15px;
+}
+
+.flag{
+    width: 22px;
+    vertical-align: middle;
+}
+
+.language p{
+    font-size: 0.8rem;
+    display: inline-block;
+}
+
+.italian{
+    width: 10px;
+    filter: invert(1);
+    vertical-align: middle;
+}
+
 .col-list {
     width: 17.5%;
     float: left;
