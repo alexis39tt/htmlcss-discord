@@ -314,7 +314,7 @@ footer {
 }
 
 .language {
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .flag {
@@ -331,6 +331,16 @@ footer {
     width: 10px;
     filter: invert(1);
     vertical-align: middle;
+}
+
+.socialmedia{
+    margin-top: 20px;
+    filter: invert(1);
+}
+
+.socialmedia img{
+    transform: scale(1.1);
+    margin-right: 20px;
 }
 
 .col-list {
