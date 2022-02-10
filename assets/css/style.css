@@ -317,6 +317,7 @@ footer {
 
 .language {
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .flag {
@@ -343,6 +344,7 @@ footer {
 .socialmedia img {
     transform: scale(1.1);
     margin-right: 20px;
+    cursor: pointer;
 }
 
 .col-list {
@@ -361,6 +363,11 @@ footer {
 
 .col-list li {
     padding-top: 10px;
+    cursor: pointer;
+}
+
+.col-list li:hover {
+    text-decoration: underline;
 }
 
 footer hr {
@@ -378,6 +385,7 @@ footer hr {
 
 .bottom-content-footer img, .bottom-content-footer button {
     vertical-align: middle;
+    cursor: pointer;
 }
 
 .bottom-content-footer button {
